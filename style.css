@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,100;1,300;1,400;1,500;1,600;1,900&display=swap');
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+  
+}
+main{
+    font-family: Poppins;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+     background-color: #181818;
+}
+.nav-list ul{
+       list-style: none;
+       display: flex;
+
+}
+.nav-list  li a:hover {
+      color: black;
+
+
+}
+.name {
+     color: #ffff;
+}
+  
+
+.nav-list  li a{
+      padding: 0  17px;
+      
+      text-decoration: none;
+       color:#ffff;
+}
+.main-web{
+       padding: 3%;
+}
+
+.row{
+     display: flex;
+     
+}
+.co-1 {
+      flex-basis: 50%;
+}
+.col-1 h1{
+      margin-top: 350px;
+}
+.cal-2 img{
+      width: 600px;
+       position: relative;
+       top: 40px;
+}
+.skill {
+     display: flex;
+    
+}
+
+
+
+.skill img{
+     margin: 20px 17px;
+      width: 40px;
+      cursor: pointer;
+}
